@@ -47,12 +47,12 @@ https://dev.to/envoy_/150-badges-for-github-pnk
   <!-------------------------------------------------------------------->
   
 #### Stacks:
+
 <p align="left">
  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img  alt="bash"  width="50" height="50" src="https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/854c1970-b847-4cf3-86c7-772ed0985b32"><a/>
 
 </p>
   
-   
 
  <!------------------------------------TOOLS-->
  #### Tools:
@@ -107,16 +107,22 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 
 ## Inicializador de aplicação react
 
-```bash
+```shell
 #!/bin/bash
 
 	# Insert file path
-IMDBDIR=CRUD_React_com_MySQL/client
+APPDIR=CRUD_React_com_MySQL/client
 
-cd $IMDBDIR
+cd $APPDIR
 yarn start
 
 ```
+
+- `#!/bin/bash`: instrui o sistema operacional a executar o Bash e que por vez irá interpretar a instrução passada.
+-  `APPDIR=CRUD_React_com_MySQL/client`: aqui é passado o caminho para se chegar na aplicação React. Este caminho foi passado com o arquivo `.sh` presente na Área de Trabalho.
+- `cd`: choose directory, é um comando para ele concatenar com o caminho atual que pode ser descoberto utilizando o comando `pwd`, com o que voce está passando. Neste caso o caminho contido na variável APPDIR.
+- `yarn start`: o famoso comando para rodar a aplicação react é passado aqui e executado no bash mesmo. Verifique o comando de inicialização da sua aplicação, pois pode ser `yarn dev`.
+	
 
 
 ## Organizar arquivos por meio de pastas 
@@ -140,6 +146,10 @@ mkdir mp4
 mv *.mp4 mp4
 ```
 
+- `#!/bin/bash`: instrui o sistema operacional a executar o Bash e que por vez irá interpretar a instrução passada.
+- `mkdir`: make directory, cria um diretório, uma pasta. Neste caso, são criados as pastas imgs, svgs, pdfs, exe e mp4.
+- `mv`: move, move arquivos para determinado diretório. Neste caso para as pastas criadas. 
+
 
 ## Deletar arquivos com mais de 30 dias sem modificação 
 
@@ -148,6 +158,12 @@ mv *.mp4 mp4
 find . -maxdepth 1 -mtime +30 -delete
 ```
 
+- `#!/bin/bash`: instrui o sistema operacional a executar o Bash e que por vez irá interpretar a instrução passada.
+- `find`: busca algum arquivo, diretório desejado. Teste caso `.` que significa todos.
+- `maxdepth`: responsável por indicar o nível de camadas de diretórios. Caso a pasta que você queria deletar os arquivos tenha outras pastas, o maxdepth com valor 2 varrerá os arquivos destas pastas também. Quanto maior o valor, mais profundo será feita o procedimento.
+- `mtime`: modification timestamp, é passado o dado do tempo de modificação do arquivo. O valor é em dias, sendo que neste caso colocado 30.
+- `delete`: executa a ação de deletar arquivos, diretórios. 
+
 
 ## Deletar todos os tipos de imagens com mais de 30 dias sem modificação 
 
@@ -155,6 +171,13 @@ find . -maxdepth 1 -mtime +30 -delete
 #!/bin/bash
 find . -maxdepth 1 -name "*.png" -o -name "*.svg" -o -name "*.jpeg" -o -name "*.jpg" -mtime +30 -delete
 ```
+- `#!/bin/bash`: instrui o sistema operacional a executar o Bash e que por vez irá interpretar a instrução passada.
+- `find`: busca algum arquivo, diretório desejado. Teste caso `.` que significa todos.
+- `maxdepth`: responsável por indicar o nível de camadas de diretórios. Caso a pasta que você queria deletar os arquivos tenha outras pastas, o maxdepth com valor 2 varrerá os arquivos destas pastas também. Quanto maior o valor, mais profundo será feita o procedimento. Neste caso, foi usado no maximo a camada 1, pois quero que seja deletado apenas arquivos daquele diretório e de mais nenhum além.
+- `name`: é passado o nome específico do arquivo/diretório. Neste caso foi passado a extensão do arquivo.
+- `o`: or, indica o conectivo lógico ou.
+- `mtime`: modification timestamp, é passado o dado do tempo de modificação do arquivo. O valor é em dias, sendo que neste caso colocado 30.
+- `delete`: executa a ação de deletar arquivos, diretórios. 
 
 
 
