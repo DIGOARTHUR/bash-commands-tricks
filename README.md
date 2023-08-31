@@ -24,11 +24,12 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 -->
 
 
+
 <!-------------------------------------------------------------------->
  <!------------------------------------BANNER PROJECT----------------->
 <!-------------------------------------- 280 x 1400 ------------------------------>
 
-![image](https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/b62529e0-8b41-4192-8507-739d52fa55cb)
+![image](https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/367dae20-48bb-413e-9ade-884d92b997cc)
 
 
 
@@ -47,29 +48,19 @@ https://dev.to/envoy_/150-badges-for-github-pnk
  <!------------------------------------STACKS && TOOLS --------->
   <!-------------------------------------------------------------------->
   
-#### Stacks:
 
-<p align="left">
- <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img  alt="bash"  width="50" height="50" src="https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/854c1970-b847-4cf3-86c7-772ed0985b32"><a/>
-
-</p>
-  
-
- <!------------------------------------TOOLS-->
- #### Tools:
- <a href="https://www.typescriptlang.org/"><img  alt="system-windows"  width="50" height="50" src="https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/0a69e7f6-7952-4439-ab8a-73c8106534bb"><a/>
- <a href="https://www.typescriptlang.org/"><img  alt="system-linux"  width="50" height="50" src="https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/a9718b11-ea1d-4a5d-8d8b-6bbe6dd43ec3"><a/> 
   
   
-<hr>
+
   <!-------------------------------------------------------------------->
   <!------------------------------------PROJECT ICON-------------------->
   <!-------------------------------------------------------------------->
   
-  # `Ícone do projeto (caso tenha )  Ex.:`
-  
+
+
+
 <h1 align="center">
-  <img width="200" height="150" alt="Dashgo" title="Dashgo" src="https://user-images.githubusercontent.com/59892368/193431566-ca6940c0-e883-4dd9-960b-30b2e89a25ea.svg" />
+  <img height="150px" alt="bash" title="bash" src="https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/5e6049c3-577d-413e-bff5-601b302a4d7a" />
 </h1>
 
 
