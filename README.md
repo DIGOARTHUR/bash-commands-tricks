@@ -1,5 +1,6 @@
 
 
+
 <!-- VISUALIZAR NO README VSCODE  CTRL + K  V -->
 
 <!-------------------------------------------------------------------->
@@ -26,8 +27,8 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 <!-------------------------------------------------------------------->
  <!------------------------------------BANNER PROJECT----------------->
 <!-------------------------------------- 280 x 1400 ------------------------------>
-# `Banner do Projeto Ex.:`
-![image](https://user-images.githubusercontent.com/59892368/193427906-5f71205f-5e64-4016-bc10-b583bd2c0615.png)
+
+![image](https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/b62529e0-8b41-4192-8507-739d52fa55cb)
 
 
 
