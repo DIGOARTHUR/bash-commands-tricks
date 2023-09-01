@@ -1,3 +1,4 @@
+ 
 
 
 
@@ -29,7 +30,23 @@ https://dev.to/envoy_/150-badges-for-github-pnk
  <!------------------------------------BANNER PROJECT----------------->
 <!-------------------------------------- 280 x 1400 ------------------------------>
 
-![image](https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/367dae20-48bb-413e-9ade-884d92b997cc)
+
+<h1 align="center">Bash Commands Tricks ft. React & Git
+</h1>
+
+<p align="center">
+  <!-------------------------------------------------------------------->
+  <!------------------------------------PROJECT ICON-------------------->
+  <!-------------------------------------------------------------------->
+  <img height="150px" alt="bashftreactgit" title="bashftreactgit" src="https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/21f2781d-47c4-4d00-aa49-b48641c3165c" />
+  <br>
+  <i>Automate your react and git commands and others</i>
+  <br>
+</p>
+
+<h1 align="center">
+ 
+</h1>
 
 
 
@@ -52,23 +69,19 @@ https://dev.to/envoy_/150-badges-for-github-pnk
   
   
 
-  <!-------------------------------------------------------------------->
-  <!------------------------------------PROJECT ICON-------------------->
-  <!-------------------------------------------------------------------->
+
   
 
 
 
-<h1 align="center">
-  <img height="150px" alt="bash" title="bash" src="https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/5e6049c3-577d-413e-bff5-601b302a4d7a" />
-</h1>
 
 
-  # `Sumário  Ex.:`
+
 
 <!-------------------------------------------------------------------->
 <!------------------------------------SUMMARY------------------------->
 <!-------------------------------------------------------------------->
+  # `Sumário  Ex.:`
 <p align="center">
   <a href="https://github.com/DIGOARTHUR/Dashgo#--sobre-a-aplicação-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/DIGOARTHUR/Dashgo#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
