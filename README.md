@@ -25,6 +25,18 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 -->
 
 
+<!------------------------------------ LANGUAGE BUTTONS-->
+<div align="right">
+<a href="https://github.com/DIGOARTHUR/github-automated-repos#readme">
+    <img  height="35" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/257623321-95c81f57-b751-4956-b0ab-7a804ae44506.svg" alt="language_USA" border="0">
+<a/>
+<br/>
+<a href="https://github.com/DIGOARTHUR/github-automated-repos/blob/main/README_PT.md">
+<img  alt="language_Brazil"  height="35" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/258252924-3c572826-3b6d-46da-b5d0-dde3879748c5.svg">
+<a/>
+
+</div>
+
 
 <!-------------------------------------------------------------------->
  <!------------------------------------BANNER PROJECT----------------->
@@ -97,38 +109,28 @@ https://dev.to/envoy_/150-badges-for-github-pnk
    <!---write here : talk a little about project: what's does, example.  -->
    
 # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  Sobre a aplicação 
-
+---
 > O uso de comandos script bash é uma forma de interação direta com a sua máquina, possibilitando executar ações como criação, remoção de pastas/arquivos, iniciar aplicações,
 > automatizar tarefas na sua máquina como deletar arquivos que já estão a mais de 30 dias, organizar arquivos em varias outras pastas com o seu tipo determinado.
 > Além dos comandos que voce executa nos terminais, há a possiblitadade de criar comandos script bash executáveis que são os arquivos `.sh`.
 > Com um clique no arquivo, tudo será feito na sua máquina como programado. 
 
+---
 
  <!-------------------------------------------------------------------->
   <!------------------------------------CONTENT------->
   <!-------------------------------------------------------------------->
   
-# <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622497-164365e8-f6b0-4f40-bc75-a0ed4da6059b.png">  Comandos
+# <img  alt="skills"  width="40" height="40" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265221445-3a17120c-8847-4987-95ba-2014dc8d2e5f.png">  Comandos
 
-## Inicializador de aplicação react
 
-```shell
-#!/bin/bash
-
-	# Insert file path
-APPDIR=CRUD_React_com_MySQL/client
-
-cd $APPDIR
-yarn start
-
-```
-
-- `#!/bin/bash`: instrui o sistema operacional a executar o Bash e que por vez irá interpretar a instrução passada.
--  `APPDIR=CRUD_React_com_MySQL/client`: aqui é passado o caminho para se chegar na aplicação React. Este caminho foi passado com o arquivo `.sh` presente na Área de Trabalho.
-- `cd`: choose directory, é um comando para ele concatenar com o caminho atual que pode ser descoberto utilizando o comando `pwd`, com o que voce está passando. Neste caso o caminho contido na variável APPDIR.
-- `yarn start`: o famoso comando para rodar a aplicação react é passado aqui e executado no bash mesmo. Verifique o comando de inicialização da sua aplicação, pois pode ser `yarn dev`.
-	
-
+<p align="center">
+  <img height="80px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265223569-f51d64ec-bd55-40ea-ba6b-869cae3bbbf9.png" />
+	  <img height="80px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265223293-b0d45dac-7087-4cb6-9dc5-4335b7160cd8.png" />
+  <br>
+  <i>Sistema Operacional</i>
+  <br>
+</p>
 
 ## Organizar arquivos por meio de pastas 
 
@@ -184,52 +186,42 @@ find . -maxdepth 1 -name "*.png" -o -name "*.svg" -o -name "*.jpeg" -o -name "*.
 - `mtime`: modification timestamp, é passado o dado do tempo de modificação do arquivo. O valor é em dias, sendo que neste caso colocado 30.
 - `delete`: executa a ação de deletar arquivos, diretórios. 
 
+<p align="center">
+  <img height="80px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265221856-f2c1ab54-b781-4505-8468-ce08f8a9ba37.png" />
+  <br>
+  <i>React</i>
+  <br>
+</p>
 
+
+## Inicializador de aplicação react
+
+```shell
+#!/bin/bash
+
+	# Insert file path
+APPDIR=CRUD_React_com_MySQL/client
+
+cd $APPDIR
+yarn start
+
+```
+
+- `#!/bin/bash`: instrui o sistema operacional a executar o Bash e que por vez irá interpretar a instrução passada.
+-  `APPDIR=CRUD_React_com_MySQL/client`: aqui é passado o caminho para se chegar na aplicação React. Este caminho foi passado com o arquivo `.sh` presente na Área de Trabalho.
+- `cd`: choose directory, é um comando para ele concatenar com o caminho atual que pode ser descoberto utilizando o comando `pwd`, com o que voce está passando. Neste caso o caminho contido na variável APPDIR.
+- `yarn start`: o famoso comando para rodar a aplicação react é passado aqui e executado no bash mesmo. Verifique o comando de inicialização da sua aplicação, pois pode ser `yarn dev`.
+	
+
+<p align="center">
+  <img height="80px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265222207-cab38514-8a3f-4fe8-b954-c669d2f481d3.png" />
+  <br>
+  <i>Git</i>
+  <br>
+</p>
 
   
-  # `Stacks, Tools, Libs + Descrição breve Ex.:`  
-  <!-------------------------------------------------------------------->
-  <!------------------------------------LIST: STACKS , LIBS & TOOLS------->
-  <!-------------------------------------------------------------------->
-## <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/197614534-e12fb94a-b5cf-44ff-8d57-debad7299b0b.png"> Stacks <!---write here: learned concepts; -->
 
-
-  
-### Linguagem
- <a href="https://www.typescriptlang.org/"> ![Alt ou título da imagem](https://img.shields.io/badge/-TypeScript-/?logo=TypeScript&logoColor=white&color=informational)<a/>
- * [`TypeScript`](https://www.typescriptlang.org/) (TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript, oferecendo melhores ferramentas em qualquer escala.)
-     * [`Map`](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Map) (Método que executa uma iteração em uma array com retorno de outra array formatada, trabalhada de diversas formas.)
-     * [`Async/await`](https://www.w3schools.com/js/js_async.asp) (Método utilizado para transformar funções em assíncronas. Usado para chamadas de APIs.)
-     
-     
-### Estilização 
- <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"> ![Alt ou título da imagem](https://img.shields.io/badge/-ChakraUI-/?logo=ChakraUI&logoColor=white&color=9cf)<a/> 
-  * [`Styled System`](https://chakra-ui.com/docs/styled-system/style-props)(ChakraUI possibilita a experiência própria de estilização, sendo repassado por Props.)
-
-  
-### Framework / Lib
- <a href="https://nextjs.org"> ![Alt ou título da imagem](https://img.shields.io/badge/-NextJS-/?logo=Next.js&logoColor=white&color=lightgrey)<a/>  
-  * `Estrutura` (Estruturação de pastas e arquivos)
-  * `Evitar conflito CSS`(.modules) 
-  * `next/link` (Aplicação de rotas)    
-  * [`Componente`](https://reactjs.org/docs/components-and-props.html) (Uso de componentes)
-  * [`Estado`](https://reactjs.org/docs/state-and-lifecycle.html) (Uso de hooks para controle de estado e ciclo de vida da aplicação)
-  * [`Props`](https://reactjs.org/docs/state-and-lifecycle.html) (Recurso utilizado para passar atributos de um componente pai para outro componente filho)
- 
-
-
-
- ### Gerenciador / Pacotes
- <a href="https://yarnpkg.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Yarn-/?logo=Yarn&logoColor=white&color=blue)<a/> 
- *  [`chakra-ui`](https://chakra-ui.com) (Biblioteca que fornece Estilo, Componentes, Hooks para a aplicação React que facilita a construção da IU)
- *  [`miragejs`](https://miragejs.com) (Biblioteca de simulação de API que permite criar, testar e compartilhar um aplicativo JavaScript completo e funcional sem precisar depender de nenhum serviço de back-end.)
- *  [`react-query`](https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3.tanstack.com/) (Biblioteca utilizada para otimizar a busca, armazenamento em cache e atualização dos dados remotos) 
- *  [`apexcharts`](https://apexcharts.com) (Biblioteca que oferece ferramentas para contrução de gráfico interativos e modernos)
- *  [`axios`](https://axios-http.com/docs/intro) (Biblioteca utilizada para fazer chamadas HTTP Client. Chamadas em uma API ou a partir de um Back-end construído.) 
- ### Versionameto
- <a href="https://git-scm.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-Git-/?logo=Git&logoColor=white&color=red)<a/> 
- ### IDE
- <a href="https://code.visualstudio.com"> ![Alt ou título da imagem](https://img.shields.io/badge/-VisualStudioCode-/?logo=VisualStudioCode&logoColor=white&color=informational)<a/> 
 
 
   # `Como rodar a aplicação Ex.:`  
