@@ -10,7 +10,7 @@ select option in ${commitzenOption[@]};
 
 do
   read -p "Message commit >: " message
-  git commit -m '($option) $message'
+  git commit -m '(${option}) ${message}'
   break
 done
 
