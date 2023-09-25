@@ -13,4 +13,4 @@ mkdir exe
 mv *.exe exe
 
 mkdir mp4
-mv *.mp4 mp4
+mv *.mp4 mp4 
