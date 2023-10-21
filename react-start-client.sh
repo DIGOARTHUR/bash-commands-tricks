@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Insert file path
+
 APPDIRCLIENT=CRUD_React_com_MySQL/client
 APPDIRSERVER=CRUD_React_com_MySQL/server
 
