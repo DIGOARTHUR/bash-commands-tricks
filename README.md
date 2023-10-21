@@ -1,5 +1,5 @@
- 
 
+<!--  docs: update Readme   -->
 
 
 <!-- VISUALIZAR NO README VSCODE  CTRL + K  V -->
@@ -25,6 +25,11 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 -->
 
 
+
+
+
+
+
 <!------------------------------------ LANGUAGE BUTTONS-->
 <div align="right">
 <a href="https://github.com/DIGOARTHUR/github-automated-repos#readme">
@@ -32,7 +37,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 <a/>
 <br/>
 <a href="https://github.com/DIGOARTHUR/github-automated-repos/blob/main/README_PT.md">
-<img  alt="language_Brazil"  height="35" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/258252924-3c572826-3b6d-46da-b5d0-dde3879748c5.svg">
+<img  alt="language_Brazil"  height="35" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/277121999-ebbd8cff-f85a-49a6-aa6b-acd3fde2adb8.svg">
 <a/>
 
 </div>
