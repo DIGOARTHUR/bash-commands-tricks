@@ -244,8 +244,11 @@ read -p "Press [ANY] key to quit..."
 ```
 
 - `#!/bin/bash`: instrui o sistema operacional a executar o Bash e que por vez irá interpretar a instrução passada.
-- `git add .`: comando git para adicionar TODOs os arquivos.
-- `mv`: move, move arquivos para determinado diretório. Neste caso para as pastas criadas. 
+- `git add .`: comando git para adicionar TODOs os arquivos no stage.
+- `select {item} in {list} do ... done`: comando para iterar a lista declarada, neste caso, $commitizenList.
+- `read -p {message} {variable}`: entrada de dados, input usuário.
+- `concatenate strings`: uso de concatenação
+	- gitCommit+="${commitizen}":"${message}"	
   
 
 
