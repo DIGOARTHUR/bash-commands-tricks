@@ -223,6 +223,29 @@ yarn start
   <br>
 </p>
 
+## Commitizen git commit (option select)
+
+```bash
+#!/bin/bash
+git add .
+
+commitizenList=$'build\nci\ndocs\nfeat\nfix\nstyle\ntest'
+
+select commitizen in $commitizenList; 
+do
+	read -p "git commit -m: " message;
+	gitCommit="git commit -m"
+	gitCommit+="${commitizen}":"${message}"	
+	eval $gitCommit
+ 	break
+done
+
+read -p "Press [ANY] key to quit..."
+```
+
+- `#!/bin/bash`: instrui o sistema operacional a executar o Bash e que por vez irá interpretar a instrução passada.
+- `git add .`: comando git para adicionar TODOs os arquivos.
+- `mv`: move, move arquivos para determinado diretório. Neste caso para as pastas criadas. 
   
 
 
