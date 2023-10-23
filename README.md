@@ -31,6 +31,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 
 
 <!------------------------------------ LANGUAGE BUTTONS-->
+<!--
 <div align="right">
 <a href="https://github.com/DIGOARTHUR/github-automated-repos#readme">
     <img  height="35" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/257623321-95c81f57-b751-4956-b0ab-7a804ae44506.svg" alt="language_USA" border="0">
@@ -41,7 +42,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 <a/>
 
 </div>
-
+-->
 
 <!-------------------------------------------------------------------->
  <!------------------------------------BANNER PROJECT----------------->
@@ -98,13 +99,10 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 <!-------------------------------------------------------------------->
 <!------------------------------------SUMMARY------------------------->
 <!-------------------------------------------------------------------->
-  # `Sumário  Ex.:`
 <p align="center">
-  <a href="https://github.com/DIGOARTHUR/Dashgo#--sobre-a-aplicação-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#-Stacks-"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#-rodando-a-aplicação">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#-por-que--">Por que?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/bash-commands-tricks/#--sobre-a-aplicação">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/bash-commands-tricks/#--comandos"> Comandos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/bash-commands-tricks/#-rodando-a-aplicação"> Rodando a Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>  
 
 
