@@ -248,8 +248,17 @@ read -p "Press [ANY] key to quit..."
 - `select {item} in {list} do ... done`: comando para iterar a lista declarada, neste caso, $commitizenList.
 - `read -p {message} {variable}`: entrada de dados, input usuário.
 - `concatenate strings`: uso de concatenação
-	- gitCommit+="${commitizen}":"${message}"	
+	- gitCommit+="${commitizen}":"${message}"
+-`read -p "Press [ANY] key to quit`: comando usado para dar uma pausa no console enquanto alguma tecla NÃO seja pressionada. 
   
+## Commitizen git commit (option select Interative)
+
+```bash
+
+
+
+```
+
 
 
 
@@ -259,42 +268,26 @@ read -p "Press [ANY] key to quit..."
   <!------------------------------------RUN APP------------------------->
    <!-------------------------------------------------------------------->
  # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142216697-dd93272c-c614-4664-9d63-c4e4dfc3e0f3.gif"> Rodando a Aplicação
+
  
 
 1. Clonar repositório:
 
 ```
-git clone https://github.com/DIGOARTHUR/Dashgo.git
+git clone https://github.com/DIGOARTHUR/bash-commands-tricks
 ```
 
-2. Instalar dependências
+<img  alt="skills"  width="30" height="30" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/277764081-3db6e9e2-e99e-4b1b-ac21-8056af212e71.svg"> Cuidado ao executar os arquivos antes de ler o que cada um faz.
 
-```
-yarn install
-```
 
-3. Rodar aplicativo
+2. Para rodar os arquivos `.sh` coloque-os no diretório alvo.
+   
+   Ex.:
+	2.1 `delete-files-than30days.sh` no diretório Downloads
+   
+4. Para customizar o código ou apenas verificar, mude a extensão `.sh` para `.txt`. Dê uma olhada aqui: [Mudar extensão arquivo](https://pt.wikihow.com/Alterar-a-Extensão-de-um-Arquivo)
 
-```
-yarn dev
-```
 
-4. Acesse `http://localhost:3000/` e navegue pelo site
-
-:warning: 5. Trocar URL do repositorio remoto (caso necessário)
-
-  5.1 Ver qual o repositorio atual
-```
-git remote -v
-```
-  5.2 Mudar a URL do repositorio remoto
-```
-git remote set-url origin <LinkDoNovoRepositorio>
-```
-  5.3 Verifique se a mudança foi realizada
-```
-git remote -v
-```
 
 
 
@@ -303,13 +296,14 @@ git remote -v
   <!------------------------------------WHY/THANKS--------------------->
   <!-------------------------------------------------------------------->
 
-  # `Agradecimentos Ex.:`  
+
 
  # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622627-c1eaa513-ca90-49e2-b5b8-c11d369becef.png"> Por que?  <!---write here : motivation that led to created ; why did you do this program?   -->
- Seguindo o curso IGNITE já em reta final, esse foi um dos projetos mais legais dentro  trilha ReactJS. A [@Rocketseat](https://github.com/Rocketseat) sempre trazendo novidades a cada aplicação, ferramentas que abrem fronteiras para aplicação e criatividade em projetos pessoais e profissionais.
+ Como foi visto o Bash é útil para automatizar rotinas e tarefas envolvendo o Sistema Operacional e ferramentas como Git e React, por exemplo. Uma outra aplicação usada também ligada ao Git é o uso do Husky, a base de rotina de execução dele é baseado no bash.
 
  ---
-Só tenho agradecer ♥
+
+`by`: [@digoarthur](https://www.linkedin.com/in/digoarthur/)
   
   
   
