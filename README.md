@@ -299,7 +299,7 @@ git clone https://github.com/DIGOARTHUR/bash-commands-tricks
 
 
  # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622627-c1eaa513-ca90-49e2-b5b8-c11d369becef.png"> Por que?  <!---write here : motivation that led to created ; why did you do this program?   -->
- Como foi visto o Bash é útil para automatizar rotinas e tarefas envolvendo o Sistema Operacional e ferramentas como Git e React, por exemplo. Uma outra aplicação usada também ligada ao Git é o uso do Husky, a base de rotina de execução dele é baseado no bash.
+ Como foi visto o Bash é útil para automatizar rotinas e tarefas envolvendo o Sistema Operacional e ferramentas como Git e React, por exemplo. Uma outra aplicação usada também ligada ao Git é o uso do Husky, a base de rotina de execução dele é baseado no bash. Quis trazer e compartilhar diferentes aplicações para mostrar o poder do uso dessa ferramenta.
 
  ---
 
