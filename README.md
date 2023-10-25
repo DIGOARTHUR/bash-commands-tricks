@@ -455,7 +455,8 @@ git clone https://github.com/DIGOARTHUR/bash-commands-tricks
  ---
 
 `by`: [@digoarthur](https://www.linkedin.com/in/digoarthur/)
-`font`:  [NotesForProfessionals](https://www.linkedin.com/in/digoarthur/)
+
+`source`:  [NotesForProfessionals](https://www.linkedin.com/in/digoarthur/)
   
   
 
