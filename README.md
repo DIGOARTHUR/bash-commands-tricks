@@ -59,8 +59,16 @@ https://dev.to/envoy_/150-badges-for-github-pnk
   <img height="150px" alt="bashftreactgit" title="bashftreactgit" src="https://github.com/DIGOARTHUR/bash-commands-tricks/assets/59892368/21f2781d-47c4-4d00-aa49-b48641c3165c" />
   <br>
   <i>Automate your react and git commands and others</i>
+	
+
   <br>
+<div align="center">
+	
+<i>`based in`</i> : [BashNotesForProfessionals](https://github.com/DIGOARTHUR/bash-commands-tricks/blob/main/BashNotesForProfessionals.pdf)
+
+</div>
 </p>
+
 
 <h1 align="center">
  
