@@ -376,7 +376,7 @@ git clone https://github.com/DIGOARTHUR/bash-commands-tricks
 2. Para rodar os arquivos `.sh` coloque-os no diretório alvo.
    
    Ex.:
-	2.1 `delete-files-than30days.sh` no diretório Downloads
+	2.1 Insira o `delete-files-than30days.sh` no diretório Downloads. Executando este arquivo, ele buscará arquivos que está mais de 30 dias e irá excluir.
    
 4. Para customizar o código ou apenas verificar, mude a extensão `.sh` para `.txt`. Dê uma olhada aqui: [Mudar extensão arquivo](https://pt.wikihow.com/Alterar-a-Extensão-de-um-Arquivo)
 
