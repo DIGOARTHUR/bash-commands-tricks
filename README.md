@@ -202,19 +202,42 @@ find . -maxdepth 1 -name "*.png" -o -name "*.svg" -o -name "*.jpeg" -o -name "*.
 ```shell
 #!/bin/bash
 
-	# Insert file path
-APPDIR=CRUD_React_com_MySQL/client
 
-cd $APPDIR
-yarn start
+APPDIRCLIENT=CRUD_React_com_MySQL/client
+APPDIRSERVER=CRUD_React_com_MySQL/server
+
+PS3="Run App? :"
+
+select option in Yes✅ No❌;
+
+do
+    case $REPLY in
+        1)
+            	cd $APPDIRCLIENT
+		yarn start
+
+		cd $APPDIRSERVER
+		yarn start
+
+            ;;
+
+        2)
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done
 
 ```
 
+
+
 - `#!/bin/bash`: instrui o sistema operacional a executar o Bash e que por vez irá interpretar a instrução passada.
--  `APPDIR=CRUD_React_com_MySQL/client`: aqui é passado o caminho para se chegar na aplicação React. Este caminho foi passado com o arquivo `.sh` presente na Área de Trabalho.
-- `cd`: choose directory, é um comando para ele concatenar com o caminho atual que pode ser descoberto utilizando o comando `pwd`, com o que voce está passando. Neste caso o caminho contido na variável APPDIR.
-- `yarn start`: o famoso comando para rodar a aplicação react é passado aqui e executado no bash mesmo. Verifique o comando de inicialização da sua aplicação, pois pode ser `yarn dev`.
-	
+-  `APPDIRCLIENT & APPDIRSERVER`: variável que recebe o caminho para se chegar na aplicação React e API. Este caminho pode ser obtido por meio de um comando chamado pwd
+- `select option in Yes✅ No❌;`: aguarda a escolha da opção aqui passada Yes ou No.
+- `do .. case... $REPLY`: a partir do momento que é feita a escolha, o $REPLY obtem a posição sendo YES = 1 e NO = 2 e direciona para o case relacioando.
+- `cd $APPDIRCLIENT & cd $APPDIRSERVER`: choose directory, é um comando para ele 'concatenar' com o caminho de onde se encontra este arquivo .sh, com o que voce está passando agora, sendo neste caso o caminho contido na variável $APPDIRCLIENT & $APPDIRSERVER. No fim terá acesso de onde se encontra os arquivos para que logo em seguida seja feita a inicialização dos mesmos.
+- `yarn start`: comando para inicializar a aplicação. Aqui pode variar, apenas configure com o comando de inicialização, troque se for preciso.
 
 <p align="center">
   <img height="80px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265222207-cab38514-8a3f-4fe8-b954-c669d2f481d3.png" />
