@@ -134,7 +134,8 @@ https://dev.to/envoy_/150-badges-for-github-pnk
   
 # <img  alt="skills"  width="40" height="40" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265221445-3a17120c-8847-4987-95ba-2014dc8d2e5f.png">  Comandos
 
-
+  <br>   <br>   <br>
+  
 <p align="center">
   <img height="80px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265223569-f51d64ec-bd55-40ea-ba6b-869cae3bbbf9.png" />
 	  <img height="80px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265223293-b0d45dac-7087-4cb6-9dc5-4335b7160cd8.png" />
@@ -143,7 +144,8 @@ https://dev.to/envoy_/150-badges-for-github-pnk
   <br>
 </p>
 
-## Organizar arquivos por meio de pastas 
+## Organizar arquivos através de pastas 
+###### [organize-file-types.sh](https://github.com/DIGOARTHUR/bash-commands-tricks/blob/main/organize-file-types.sh)
 
 ```bash
 #!/bin/bash
@@ -170,6 +172,7 @@ mv *.mp4 mp4
 
 
 ## Deletar arquivos com mais de 30 dias sem modificação 
+###### [delete-files-than30days.sh](https://github.com/DIGOARTHUR/bash-commands-tricks/blob/main/delete-files-than30days.sh)
 
 ```bash
 #!/bin/bash
@@ -184,6 +187,7 @@ find . -maxdepth 1 -mtime +30 -delete
 
 
 ## Deletar todos os tipos de imagens com mais de 30 dias sem modificação 
+###### [delete-type-imgs-than30days.sh](https://github.com/DIGOARTHUR/bash-commands-tricks/blob/main/delete-type-imgs-than30days.sh)
 
 ```bash
 #!/bin/bash
@@ -197,6 +201,8 @@ find . -maxdepth 1 -name "*.png" -o -name "*.svg" -o -name "*.jpeg" -o -name "*.
 - `mtime`: modification timestamp, é passado o dado do tempo de modificação do arquivo. O valor é em dias, sendo que neste caso colocado 30.
 - `delete`: executa a ação de deletar arquivos, diretórios. 
 
+  <br>   <br>   <br>
+
 <p align="center">
   <img height="80px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265221856-f2c1ab54-b781-4505-8468-ce08f8a9ba37.png" />
   <br>
@@ -206,7 +212,7 @@ find . -maxdepth 1 -name "*.png" -o -name "*.svg" -o -name "*.jpeg" -o -name "*.
 
 
 ## Inicializador de aplicação react
-
+###### [react-start-client.sh](https://github.com/DIGOARTHUR/bash-commands-tricks/blob/main/react-start-client.sh)
 ```shell
 #!/bin/bash
 
@@ -247,6 +253,9 @@ done
 - `cd $APPDIRCLIENT & cd $APPDIRSERVER`: choose directory, é um comando para ele 'concatenar' com o caminho de onde se encontra este arquivo .sh, com o que voce está passando agora, sendo neste caso o caminho contido na variável $APPDIRCLIENT & $APPDIRSERVER. No fim terá acesso de onde se encontra os arquivos para que logo em seguida seja feita a inicialização dos mesmos.
 - `yarn start`: comando para inicializar a aplicação. Aqui pode variar, apenas configure com o comando de inicialização, troque se for preciso.
 
+
+  <br>   <br>   <br>
+
 <p align="center">
   <img height="80px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/265222207-cab38514-8a3f-4fe8-b954-c669d2f481d3.png" />
   <br>
@@ -256,6 +265,7 @@ done
 
 
 ## Commitizen git commit (option select)
+###### [git-commitzen-add-commit.sh](https://github.com/DIGOARTHUR/bash-commands-tricks/blob/main/git-commitzen-add-commit.sh) 
 
 <div align="center">
 <img height="350px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/278079362-10133958-77a4-4380-9610-21845a5d0455.gif" />
@@ -295,6 +305,8 @@ read -p "Press [ANY] key to quit..."
 
   
 ## Commitizen git commit (option select Interative)
+###### [git-commitzen-add-commit-interactive.sh](https://github.com/DIGOARTHUR/bash-commands-tricks/blob/main/git-commitzen-add-commit-interactive.sh) 
+
 
 <div align="center">
 <img height="350px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/278079858-9e2bf2c5-43f3-47cd-8d8c-d01ace11abad.gif" />
@@ -443,7 +455,7 @@ git clone https://github.com/DIGOARTHUR/bash-commands-tricks
  ---
 
 `by`: [@digoarthur](https://www.linkedin.com/in/digoarthur/)
-  
+`font`:  [NotesForProfessionals](https://www.linkedin.com/in/digoarthur/)
   
   
 
