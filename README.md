@@ -1,5 +1,5 @@
- 
 
+<!--  docs: update Readme   -->
 
 
 <!-- VISUALIZAR NO README VSCODE  CTRL + K  V -->
@@ -25,18 +25,24 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 -->
 
 
+
+
+
+
+
 <!------------------------------------ LANGUAGE BUTTONS-->
+<!--
 <div align="right">
 <a href="https://github.com/DIGOARTHUR/github-automated-repos#readme">
     <img  height="35" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/257623321-95c81f57-b751-4956-b0ab-7a804ae44506.svg" alt="language_USA" border="0">
 <a/>
 <br/>
 <a href="https://github.com/DIGOARTHUR/github-automated-repos/blob/main/README_PT.md">
-<img  alt="language_Brazil"  height="35" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/258252924-3c572826-3b6d-46da-b5d0-dde3879748c5.svg">
+<img  alt="language_Brazil"  height="35" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/277121999-ebbd8cff-f85a-49a6-aa6b-acd3fde2adb8.svg">
 <a/>
 
 </div>
-
+-->
 
 <!-------------------------------------------------------------------->
  <!------------------------------------BANNER PROJECT----------------->
@@ -93,13 +99,10 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 <!-------------------------------------------------------------------->
 <!------------------------------------SUMMARY------------------------->
 <!-------------------------------------------------------------------->
-  # `Sumário  Ex.:`
 <p align="center">
-  <a href="https://github.com/DIGOARTHUR/Dashgo#--sobre-a-aplicação-">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#--interfaces-"> Interfaces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#-Stacks-"> Stacks</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#-rodando-a-aplicação">Rodando Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/DIGOARTHUR/Dashgo#-por-que--">Por que?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/bash-commands-tricks/#--sobre-a-aplicação">Sobre a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/bash-commands-tricks/#--comandos"> Comandos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/DIGOARTHUR/bash-commands-tricks/#-rodando-a-aplicação"> Rodando a Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>  
 
 
@@ -220,7 +223,42 @@ yarn start
   <br>
 </p>
 
+## Commitizen git commit (option select)
+
+```bash
+#!/bin/bash
+git add .
+
+commitizenList=$'build\nci\ndocs\nfeat\nfix\nstyle\ntest'
+
+select commitizen in $commitizenList; 
+do
+	read -p "git commit -m: " message;
+	gitCommit="git commit -m"
+	gitCommit+="${commitizen}":"${message}"	
+	eval $gitCommit
+ 	break
+done
+
+read -p "Press [ANY] key to quit..."
+```
+
+- `#!/bin/bash`: instrui o sistema operacional a executar o Bash e que por vez irá interpretar a instrução passada.
+- `git add .`: comando git para adicionar TODOs os arquivos no stage.
+- `select {item} in {list} do ... done`: comando para iterar a lista declarada, neste caso, $commitizenList.
+- `read -p {message} {variable}`: entrada de dados, input usuário.
+- `concatenate strings`: uso de concatenação
+	- gitCommit+="${commitizen}":"${message}"
+-`read -p "Press [ANY] key to quit`: comando usado para dar uma pausa no console enquanto alguma tecla NÃO seja pressionada. 
   
+## Commitizen git commit (option select Interative)
+
+```bash
+
+
+
+```
+
 
 
 
@@ -230,42 +268,26 @@ yarn start
   <!------------------------------------RUN APP------------------------->
    <!-------------------------------------------------------------------->
  # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/142216697-dd93272c-c614-4664-9d63-c4e4dfc3e0f3.gif"> Rodando a Aplicação
+
  
 
 1. Clonar repositório:
 
 ```
-git clone https://github.com/DIGOARTHUR/Dashgo.git
+git clone https://github.com/DIGOARTHUR/bash-commands-tricks
 ```
 
-2. Instalar dependências
+<img  alt="skills"  width="30" height="30" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/277764081-3db6e9e2-e99e-4b1b-ac21-8056af212e71.svg"> Cuidado ao executar os arquivos antes de ler o que cada um faz.
 
-```
-yarn install
-```
 
-3. Rodar aplicativo
+2. Para rodar os arquivos `.sh` coloque-os no diretório alvo.
+   
+   Ex.:
+	2.1 `delete-files-than30days.sh` no diretório Downloads
+   
+4. Para customizar o código ou apenas verificar, mude a extensão `.sh` para `.txt`. Dê uma olhada aqui: [Mudar extensão arquivo](https://pt.wikihow.com/Alterar-a-Extensão-de-um-Arquivo)
 
-```
-yarn dev
-```
 
-4. Acesse `http://localhost:3000/` e navegue pelo site
-
-:warning: 5. Trocar URL do repositorio remoto (caso necessário)
-
-  5.1 Ver qual o repositorio atual
-```
-git remote -v
-```
-  5.2 Mudar a URL do repositorio remoto
-```
-git remote set-url origin <LinkDoNovoRepositorio>
-```
-  5.3 Verifique se a mudança foi realizada
-```
-git remote -v
-```
 
 
 
@@ -274,13 +296,14 @@ git remote -v
   <!------------------------------------WHY/THANKS--------------------->
   <!-------------------------------------------------------------------->
 
-  # `Agradecimentos Ex.:`  
+
 
  # <img  alt="skills"  width="40" height="40" src="https://user-images.githubusercontent.com/59892368/148622627-c1eaa513-ca90-49e2-b5b8-c11d369becef.png"> Por que?  <!---write here : motivation that led to created ; why did you do this program?   -->
- Seguindo o curso IGNITE já em reta final, esse foi um dos projetos mais legais dentro  trilha ReactJS. A [@Rocketseat](https://github.com/Rocketseat) sempre trazendo novidades a cada aplicação, ferramentas que abrem fronteiras para aplicação e criatividade em projetos pessoais e profissionais.
+ Como foi visto o Bash é útil para automatizar rotinas e tarefas envolvendo o Sistema Operacional e ferramentas como Git e React, por exemplo. Uma outra aplicação usada também ligada ao Git é o uso do Husky, a base de rotina de execução dele é baseado no bash. Quis trazer e compartilhar diferentes aplicações para mostrar o poder do uso dessa ferramenta.
 
  ---
-Só tenho agradecer ♥
+
+`by`: [@digoarthur](https://www.linkedin.com/in/digoarthur/)
   
   
   
