@@ -353,11 +353,9 @@ read -p "Press [ANY] key to quit..."
 - `read -p {message} {variable}`: entrada de dados, input usuário.
 - `concatenate strings`: uso de concatenação
 	- gitCommit+="${commitizen}":"${message}"
-`eval $gitCommit`: variável sendo inserida como comando, o eval é utilizado para que a sentença de comando seja executada.
--`read -p "Press [ANY] key to quit`: comando usado para dar uma pausa no console enquanto alguma tecla NÃO seja pressionada. 
+- `eval $gitCommit`: variável sendo inserida como comando, o eval é utilizado para que a sentença de comando seja executada.
+- `read -p "Press [ANY] key to quit`: comando usado para dar uma pausa no console enquanto alguma tecla NÃO seja pressionada. 
 
-
-  # `Como rodar a aplicação Ex.:`  
 
    <!-------------------------------------------------------------------->
   <!------------------------------------RUN APP------------------------->
