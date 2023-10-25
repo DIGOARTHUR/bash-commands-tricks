@@ -223,7 +223,13 @@ yarn start
   <br>
 </p>
 
+
 ## Commitizen git commit (option select)
+
+<div align="center">
+<img height="350px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/278079362-10133958-77a4-4380-9610-21845a5d0455.gif" />
+</div>
+
 
 ```bash
 #!/bin/bash
@@ -251,8 +257,17 @@ read -p "Press [ANY] key to quit..."
 	- gitCommit+="${commitizen}":"${message}"
 `eval $gitCommit`: variável sendo inserida como comando, o eval é utilizado para que a sentença de comando seja executada.
 -`read -p "Press [ANY] key to quit`: comando usado para dar uma pausa no console enquanto alguma tecla NÃO seja pressionada. 
+
+
+
+
+
   
 ## Commitizen git commit (option select Interative)
+
+<div align="center">
+<img height="350px" alt="bashftreactgit" title="bashftreactgit" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/278079858-9e2bf2c5-43f3-47cd-8d8c-d01ace11abad.gif" />
+</div>
 
 ```bash
 function print_menu()  # selected_item, ...menu_items
