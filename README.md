@@ -123,7 +123,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk
 ---
 > O uso de comandos script bash é uma forma de interação direta com a sua máquina, possibilitando executar ações como criação, remoção de pastas/arquivos, iniciar aplicações,
 > automatizar tarefas na sua máquina como deletar arquivos que já estão a mais de 30 dias, organizar arquivos em varias outras pastas com o seu tipo determinado.
-> Além dos comandos que voce executa nos terminais, há a possiblitadade de criar comandos script bash executáveis que são os arquivos `.sh`.
+> Além dos comandos que voce executa nos terminais, há a possibilidade de criar comandos script bash executáveis que são os arquivos `.sh`.
 > Com um clique no arquivo, tudo será feito na sua máquina como programado. 
 
 ---
